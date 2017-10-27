@@ -1,0 +1,414 @@
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#coverimage {
+  overflow: hidden;
+}
+
+#coverimage {
+  background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSizewebopt27.jpg');
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  position: relative;
+}
+
+/* Style the links inside the navigation bar */
+#deBoot a {
+     color: rgba(153,153,153,1);
+}
+
+/* Change the color of links on hover */
+#deBoot a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#deBoot a:focus {
+  color: rgba(17,17,17,1);
+}
+
+/* remove background color*/
+#deBoot>li>a:hover, #deBoot>li>a:focus {
+    background-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+#coverenter a {
+     color: rgba(255,255,255,1);
+}
+
+/* Change the color of links on hover */
+#coverenter a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#coverenter a:focus {
+  color: rgba(17,17,17,1);
+}
+
+/* Style the links inside the navigation bar */
+#header a {
+     color: #222;
+}
+
+/* Change the color of links on hover */
+#header a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#header a:focus {
+  color: #222;
+}
+
+/* remove background color*/
+#header>li>a:hover, #header>li>a:focus {
+    background-color: transparent;
+}
+
+.icon-bar {
+  background-color: black;
+}
+
+#header, #deBoot {
+  text-align: center;
+}
+
+@media screen and (min-width: 48em){
+    #header, #deBoot {
+        text-align: left
+    }
+}
+
+#mainsitebackground {
+  background-color: rgba(252,252,252,1);
+}
+
+.overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+#coverheader {
+  text-align: center;
+  margin-top: 25%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  line-height: 1em;
+  color: rgba(255,255,255,1);
+}
+
+
+#coverenter {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.25em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: rgba(255,255,255,1);
+}
+
+#deBoot {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+#header {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: .75px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#myTopnav {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-bottom: 3%;
+}
+
+h5 {
+  color: rgba(64,64,64,1);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.6em;
+}
+
+.thumbnail {
+  border: 0 none;
+}
+
+img:hover {
+  opacity: .80;
+}
+
+#imgnopacity:hover {
+  opacity: 1;
+}
+
+#gallerypage {
+  margin-bottom: 7.5%;
+  margin-top: 2.5%;
+}
+
+#indexgallerypage {
+  margin-bottom: 7.5%;
+  margin-top: 5%;
+}
+
+#bioandpic {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 7.5%;
+}
+
+#biorow {
+  margin: 5% 15% 5% 15%;
+}
+
+#bioblock {
+  padding-top: 7.5%;
+}
+
+.biotext {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+.contact {
+  padding-top: 5%;
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: .5em;
+}
+
+#bookmaintext {
+  text-align: center;
+  margin-bottom: 3.5%;
+}
+
+#bookheader {
+  color: rgba(34,34,34,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+#bookbody {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+#allbook {
+  margin-bottom: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  width: 50%;
+  color: black;
+  border-style: none;
+  border-width: 1px;
+  background-color: black;
+  height: 1px;
+}
+
+.bookdescriptions {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+#bookcontainer {
+  margin-top: 7.5%;
+}
+
+#allbook {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#largepicpages{
+  margin-bottom: 4%;
+  margin-top: 3.5%;
+}
+
+.largepictitle {
+  margin-top: 2%;
+  color: rgba(34,34,34,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+.largepictext {
+  color: gba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+.workprevnext, #workprevnext {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+/* Style the links inside the navigation bar */
+#workprevnext a {
+     color: rgba(153,153,153,1);
+}
+
+/* Change the color of links on hover */
+#workprevnext a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#workprevnext a:focus {
+  color: rgba(17,17,17,1);
+}
+
+/* remove background color*/
+#workprevnext>li>a:hover, #workprevnext>li>a:focus {
+    background-color: transparent;
+}
+
+
+/* Style the links inside the navigation bar */
+.email a {
+  color: rgba(17,17,17,1);
+}
+
+/* Change the color of links on hover */
+.email a:hover {
+  color: rgba(153,153,153,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.email a:focus {
+  color: rgba(153,153,153,1);
+}
+
+/* remove background color*/
+.email>li>a:hover, .email>li>a:focus {
+    background-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+.bookdescriptions a {
+  color: rgba(87,87,87,1);
+}
+
+/* Change the color of links on hover */
+.bookdescriptions a:hover {
+  color: rgba(153,153,153,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.bookdescriptions a:focus {
+  color: rgba(153,153,153,1);
+}
+
+/* remove background color*/
+.bookdescriptions>li>a:hover, .bookdescriptions>li>a:focus {
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+   .container-fluid>.navbar-collapse,
+   .container-fluid>.navbar-header,
+   .container>.navbar-collapse,
+   .container>.navbar-header {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}
