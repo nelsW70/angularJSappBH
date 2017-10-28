@@ -1,3 +1,1 @@
-# AngularJS_BH
-# angular_JS_Bernhard
-# angularJSappBH
+angularJS version of Bernhard Edmaier site
