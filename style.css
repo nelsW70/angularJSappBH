@@ -300,6 +300,10 @@ hr {
   margin-right: 5%;
 }
 
+.bookrow {
+  padding-right: 5%;
+}
+
 #largepicpages{
   margin-bottom: 4%;
   margin-top: 3.5%;
@@ -411,5 +415,11 @@ hr {
    .container>.navbar-header {
     margin-right: -10px;
     margin-left: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookblock {
+    width: 100%;
   }
 }
