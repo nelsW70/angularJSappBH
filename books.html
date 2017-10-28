@@ -11,29 +11,31 @@
             </p>
         </div>
     </div>
-    <div class="container" ng-repeat="book in books">
+    <div class="container">
         <div class="row book">
-          <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                  <img ng-src={{book.coverimage}} id="imgnopacity" alt="...">
-                  <div class="caption">
-                      <h3><strong>{{book.title}}</strong></h3>
-                      <hr>
-                      <p class="bookdescriptions">{{book.description}}
-                          <br>
-                          <br><strong>Details:</strong>
-                          <br> {{book.details}}
-                          <br>
-                          <br><strong>Press Comment:</strong>
-                          <br> "{{book.presscomment}}"
-                          <br>
-                          <br><em>{{book.source}}</em>
-                          <br>
-                          <br>
-                          <strong>&gt;<a href="{{book.amazonlink}}" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong>
-                      </p>
-                  </div>
-              </div>
+          <div ng-repeat="book in books">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img ng-src={{book.coverimage}} id="imgnopacity" alt="...">
+                    <div class="caption">
+                        <h3><strong>{{book.title}}</strong></h3>
+                        <hr>
+                        <p class="bookdescriptions">{{book.description}}
+                            <br>
+                            <br><strong>Details:</strong>
+                            <br> {{book.details}}
+                            <br>
+                            <br><strong>Press Comment:</strong>
+                            <br> "{{book.presscomment}}"
+                            <br>
+                            <br><em>{{book.source}}</em>
+                            <br>
+                            <br>
+                            <strong>&gt;<a href="{{book.amazonlink}}" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
     </div>
