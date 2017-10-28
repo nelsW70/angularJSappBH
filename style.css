@@ -264,6 +264,8 @@ img:hover {
 
 #allbook {
   margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 2.5%;
 }
 
 h3 {
@@ -293,11 +295,6 @@ hr {
 
 #bookcontainer {
   margin-top: 7.5%;
-}
-
-#allbook {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .bookrow {
