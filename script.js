@@ -42,8 +42,8 @@ var app = angular.module("bhApp",['ngRoute'])
 }])
 
 .controller('MainCtrl', ['$scope', '$http', function($scope, $http){
-  $http.get('services.json').then(function(response){
-    $scope.services = response.data;
+  $http.get('books.json').then(function(response){
+    $scope.books = response.data;
   });
 }])
 

@@ -11,71 +11,30 @@
             </p>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/earthcopywebopt.jpg" id="imgnopacity" alt="...">
-                    <div class="caption">
-                        <h3><strong>Water</strong></h3>
-                        <hr>
-                        <p class="bookdescriptions">Water has left its mark on our planet as no other element since the Earth's creation to this day. This book of images shows water as a destructive, transporting as well as constructive and creative force in its many forms: liquid, vaporized in the clouds and frozen to ice. The motifs, mostly aerial images, have been shot on all of the five continents.
-                            <br>
-                            <br><strong>Details:</strong>
-                            <br> 240 pages. 220 colour images, Prestel Publishers Munich/New York 2015, appeared in German ("WASSER") and English.
-                            <br>
-                            <br><strong>Press Comment:</strong>
-                            <br> "Visually stimulating and incredibly powerful" - WATER belongs to the best Photography Books of 2015..."
-                            <br>
-                            <br><em>THE DAILY BEAST/Newsweek, USA</em>
-                            <br>
-                            <br>
-                            <strong>&gt;<a href="https://www.amazon.com/EarthArt-Colours-Earth-Bernhard-Edmaier/dp/0714865761/ref=sr_1_1?s=books&ie=UTF8&qid=1492372863&sr=1-1&keywords=bernhard+edmaier+earth" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/wasserwebopt.jpg" id="imgnopacity" alt="...">
-                    <div class="caption">
-                        <h3><strong>Earth Art</strong><br><strong>Colours Of The Earth</strong></h3>
-                        <hr>
-                        <p class="bookdescriptions">Inspired by colour analyses created by world famous natural science scholars such as Isaac Newton or Johan Wolfgang von Goethe, Bernhard Edmaier presents a very exceptional view of the earth and its amazingly colourful surface.
-                            <br>
-                            <br><strong>Details:</strong>
-                            <br> 220 pages, 160 colour images (mostly aerial pictures), Phaidon-Verlag London 2013.
-                            <br>
-                            <br><strong>Press Comment:</strong>
-                            <br> "Ravishes the eye...The effect is overwhelming."
-                            <br>
-                            <br><em>New York Times, USA</em>
-                            <br>
-                            <br>
-                            <strong>&gt;<a href="https://www.amazon.com/Water-Bernhard-Edmaier/dp/3791381652/ref=sr_1_1?s=books&ie=UTF8&qid=1492373078&sr=1-1&keywords=bernhard+edmaier+water" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/earthonfirewebopt.jpg" id="imgnopacity" alt="...">
-                    <div class="caption">
-                        <h3><strong>Earth On Fire</strong></h3>
-                        <hr>
-                        <p class="bookdescriptions">This collection of photographic images offers an insight into the extent of volcanic activity which is one of the major natural forces forming our planet. In this book, Bernhard Edmaier has tackled various volcanic and plate tectonic phenomena such as fire-spewing volcanoes and lava streams, dark clouds of volcanic ash, seeting mudpools, geysers, brightyellow sulphur crusts and colourful acid lakes.
-                            <br>
-                            <br><strong>Details:</strong>
-                            <br> 220 pages, over 200 colour images, Phaidon Press London 2009.
-                            <br>
-                            <br><strong>Press Comment:</strong>
-                            <br> "From close up or far away, amazing volcano photos..."
-                            <br>
-                            <br><em>Smithsonian.com, USA</em>
-                            <br>
-                            <br>
-                            <strong>&gt;<a href="https://www.amazon.com/Earth-Fire-Volcanoes-Shape-Planet/dp/0714857009/ref=sr_1_1?s=books&ie=UTF8&qid=1492373155&sr=1-1&keywords=bernhard+edmaier+earth+on+fire" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong></p>
-                    </div>
-                </div>
-            </div>
+    <div class="container" ng-repeat="book in books">
+        <div class="row book">
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <img ng-src={{book.coverimage}} id="imgnopacity" alt="...">
+                  <div class="caption">
+                      <h3><strong>{{book.title}}</strong></h3>
+                      <hr>
+                      <p class="bookdescriptions">{{book.description}}
+                          <br>
+                          <br><strong>Details:</strong>
+                          <br> {{book.details}}
+                          <br>
+                          <br><strong>Press Comment:</strong>
+                          <br> "{{book.presscomment}}"
+                          <br>
+                          <br><em>{{book.source}}</em>
+                          <br>
+                          <br>
+                          <strong>&gt;<a href="{{book.amazonlink}}" target="_blank">CLICK TO ORDER VIA AMAZON</a></strong>
+                      </p>
+                  </div>
+              </div>
+          </div>
         </div>
     </div>
 </div>

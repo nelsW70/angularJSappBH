@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "coverimage": "../img/wasserwebopt.jpg",
+    "title": "Water",
+    "description":"Water has left its mark on our planet as no other element since the Earth's creation to this day. This book of images shows water as a destructive, transporting as well as constructive and creative force in its many forms: liquid, vaporized in the clouds and frozen to ice. The motifs, mostly aerial images, have been shot on all of the five continents.",
+    "details": "240 pages. 220 colour images, Prestel Publishers Munich/New York 2015, appeared in German ('WASSER') and English.",
+    "presscomment":"Visually stimulating and incredibly powerful - WATER belongs to the best Photography Books of 2015...",
+    "source":"THE DAILY BEAST/Newsweek, USA",
+    "amazonlink":"https://www.amazon.com/Water-Bernhard-Edmaier/dp/3791381652/ref=sr_1_1?s=books&ie=UTF8&qid=1492373078&sr=1-1&keywords=bernhard+edmaier+water"
+  },
+  {
+    "id": 2,
+    "coverimage": "../img/earthcopywebopt.jpg",
+    "title": "Colours Of The Earth",
+    "description":"Inspired by colour analyses created by world famous natural science scholars such as Isaac Newton or Johan Wolfgang von Goethe, Bernhard Edmaier presents a very exceptional view of the earth and its amazingly colourful surface.",
+    "details": "220 pages, 160 colour images (mostly aerial pictures), Phaidon-Verlag London 2013.",
+    "presscomment":"Ravishes the eye...The effect is overwhelming.",
+    "source":"New York Times, USA",
+    "amazonlink":"https://www.amazon.com/EarthArt-Colours-Earth-Bernhard-Edmaier/dp/0714865761/ref=sr_1_1?s=books&ie=UTF8&qid=1492372863&sr=1-1&keywords=bernhard+edmaier+earth"
+  },
+  {
+    "id": 3,
+    "coverimage": "../img/earthonfirewebopt.jpg",
+    "title": "Earth On Fire",
+    "description":"This collection of photographic images offers an insight into the extent of volcanic activity which is one of the major natural forces forming our planet. In this book, Bernhard Edmaier has tackled various volcanic and plate tectonic phenomena such as fire-spewing volcanoes and lava streams, dark clouds of volcanic ash, seeting mudpools, geysers, brightyellow sulphur crusts and colourful acid lakes.",
+    "details": "220 pages, over 200 colour images, Phaidon Press London 2009.",
+    "presscomment":"From close up or far away, amazing volcano photos...",
+    "source":"Smithsonian.com, USA",
+    "amazonlink":"https://www.amazon.com/Earth-Fire-Volcanoes-Shape-Planet/dp/0714857009/ref=sr_1_1?s=books&ie=UTF8&qid=1492373155&sr=1-1&keywords=bernhard+edmaier+earth+on+fire"
+  }
+]
