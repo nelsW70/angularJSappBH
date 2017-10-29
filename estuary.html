@@ -22,7 +22,24 @@
    </div>
 </div>
 
+<!-- /galleries ctrl below -->
+
 <div class="container" id="gallerypage">
+   <div class="row">
+     <div ng-repeat="gallery in galleries">
+       <div class="col-sm-4 col-md-4">
+           <div class="thumbnail">
+               <a href="{{gallery.link}}"><img ng-src="{{gallery.photo}}" alt="..."></a>
+               <div class="caption">
+                   <h5>{{gallery.title}}</h5>
+               </div>
+           </div>
+       </div>
+     </div>
+   </div>
+</div>
+
+<!-- <div class="container" id="gallerypage">
    <div class="row">
        <div class="col-sm-4 col-md-4">
            <div class="thumbnail">
@@ -75,4 +92,4 @@
            </div>
        </div>
    </div>
-</div>
+</div> -->

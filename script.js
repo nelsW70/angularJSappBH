@@ -16,7 +16,7 @@ var app = angular.module("bhApp",['ngRoute'])
     }).
     when('/estuary',{
       templateUrl: 'estuary.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/maelifellsander',{
       templateUrl: 'maelifellsander.html',
@@ -47,9 +47,9 @@ var app = angular.module("bhApp",['ngRoute'])
   });
 }])
 
-.controller('ServicesCtrl', ['$scope', '$http', function($scope, $http){
-  $http.get('services.json').then(function(response){
-    $scope.services = response.data;
+.controller('GalleriesCtrl', ['$scope', '$http', function($scope, $http){
+  $http.get('galleries.json').then(function(response){
+    $scope.galleries = response.data;
   });
 }])
 

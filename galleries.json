@@ -1,0 +1,38 @@
+[
+	{
+		"id" : 1,
+		"link":"#/estuary",
+		"photo":"../img/Estuary_Iceland_aerial copy.jpg",
+		"title":"Estuary"
+	},
+	{
+		"id" : 2,
+		"link":"#/maelifellsander",
+		"photo":"../img/Maelifellsander_Iceland_aerial copy.jpg",
+		"title":"Maelifellsander"
+	},
+	{
+		"id" : 3,
+		"link":"#/conceptionisland",
+		"photo":"../img/ConceptionIsland_Bahamas_aerial copy.jpg",
+		"title":"Conception Island"
+	},
+	{
+		"id" : 4,
+		"link":"#/landeyjarsander",
+		"photo":"../img/Landeyjarsander_Iceland_aerial copy.jpg",
+		"title":"Landeyjarsander"
+	},
+	{
+		"id" : 5,
+		"link":"#/searleslake",
+		"photo":"../img/SearlesLake_USA_aerial copy.jpg",
+		"title":"Searles Lake"
+	},
+	{
+		"id" : 6,
+		"link":"#/dallol",
+		"photo":"../img/Dallol_Ethiopia_aerial copy.jpg",
+		"title":"Dallol"
+	}
+]
