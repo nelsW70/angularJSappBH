@@ -20,23 +20,23 @@ var app = angular.module("bhApp",['ngRoute'])
     }).
     when('/maelifellsander',{
       templateUrl: 'maelifellsander.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/conceptionisland',{
       templateUrl: 'conceptionisland.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/landeyjarsander',{
       templateUrl: 'landeyjarsander.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/searleslake',{
       templateUrl: 'searleslake.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/dallol',{
       templateUrl: 'dallol.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     otherwise({redirectTo:'/main'})
 }])
