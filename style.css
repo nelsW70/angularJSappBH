@@ -405,6 +405,12 @@ hr {
     background-color: transparent;
 }
 
+@media (max-width: 1023px) {
+  #allbook {
+    margin-left: 2.5%;
+  }
+}
+
 @media (min-width: 768px) {
    .container-fluid>.navbar-collapse,
    .container-fluid>.navbar-header,
