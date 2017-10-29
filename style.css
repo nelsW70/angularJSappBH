@@ -408,7 +408,7 @@ hr {
 
 @media (max-width: 1023px) {
   #allbook {
-    margin-left: 2.5%;
+    margin-left: 1%;
   }
 }
 
@@ -434,7 +434,10 @@ hr {
       margin-bottom: 3.5%;
       padding: 0 2.5%;
   }
-  .bookblock .thumbnail, .bookdescriptions {
+  .bookblock .thumbnail {
     padding-left: 5%;
+  }
+  .bookdescriptions {
+    padding-left: 2.5%;
   }
 }
