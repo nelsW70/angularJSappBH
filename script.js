@@ -51,10 +51,4 @@ var app = angular.module("bhApp",['ngRoute'])
   $http.get('galleries.json').then(function(response){
     $scope.galleries = response.data;
   });
-}])
-
-.controller('ContactCtrl', ['$scope','$http', function($scope, $http){
-   $http.get('locations.json').then(function(response){
-    $scope.locations = response.data;
-  });
 }]);
