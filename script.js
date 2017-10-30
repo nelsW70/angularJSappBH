@@ -4,7 +4,7 @@ var app = angular.module("bhApp",['ngRoute'])
   $routeProvider.
     when('/main',{
       templateUrl: 'main.html',
-      controller:'MainCtrl'
+      controller:'GalleriesCtrl'
     }).
     when('/about',{
       templateUrl: 'about.html',
