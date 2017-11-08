@@ -32,18 +32,18 @@
                         <h6>Photography</h6>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" id="deBoot">
-                      <li><a href="#/main">Home</a></li>
-                      <li><a href="#/books">Books</a></li>
-                      <li><a href="#/about">About</a></li>
+                      <li><a href="#/main" ng-click="navCollapsed=true">Home</a></li>
+                      <li><a href="#/books" ng-click="navCollapsed=true">Books</a></li>
+                      <li><a href="#/about" ng-click="navCollapsed=true">About</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 
-        <div ng-controller="MainCtrl">
-          <div ng-view></div>
-        </div>
+      <div ng-controller="MainCtrl">
+        <div ng-view></div>
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
