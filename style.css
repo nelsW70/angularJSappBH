@@ -458,6 +458,9 @@ hr {
     margin-right: -10px;
     margin-left: -10px;
   }
+  .scroll-top-wrapper.show {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 768px) {
