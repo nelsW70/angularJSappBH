@@ -18,7 +18,7 @@
      <div ng-repeat="gallery in galleries">
        <div class="col-sm-4 col-md-4">
          <div class="thumbnail">
-           <a id="div2" ng-click="scroll()" href="{{gallery.link}}"><img ng-src="{{gallery.photo}}" alt="..."></a>
+           <a ng-click="scroll()" href="{{gallery.link}}"><img ng-src="{{gallery.photo}}" alt="..."></a>
              <div class="caption">
                <h5>{{gallery.title}}</h5>
              </div>
