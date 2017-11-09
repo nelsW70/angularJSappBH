@@ -438,7 +438,7 @@ hr {
 .scroll-top-wrapper.show {
   visibility:visible;
   cursor:pointer;
-	opacity: 1.0;
+	opacity: .45;
 }
 .scroll-top-wrapper i.fa {
 	line-height: inherit;
