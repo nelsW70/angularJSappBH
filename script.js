@@ -47,8 +47,12 @@ var app = angular.module("bhApp",['ngRoute'])
   });
 }])
 
-.controller('GalleriesCtrl', ['$scope', '$http', function($scope, $http){
+.controller('GalleriesCtrl', ['$scope', '$http', '$window', function($scope, $http, $window){
   $http.get('galleries.json').then(function(response){
     $scope.galleries = response.data;
   });
+  $scope.scroll = function () {
+    $window.scrollTo(0, angular.element(document.getElementById('div1')).offsetTop);
+    // $window.scrollTo(0, 0);
+  };
 }]);

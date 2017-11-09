@@ -1,6 +1,6 @@
 <div class="container">
    <div class="row" id="largepicpages">
-       <div class="col-md-9"><img src="../img/Estuary_Iceland_aerial copy.jpg" class="img-responsive" id="imgnopacity" alt="Some picture"></div>
+       <div id="div1" class="col-md-9"><img src="../img/Estuary_Iceland_aerial copy.jpg" class="img-responsive" id="imgnopacity" alt="Some picture"></div>
        <div class="col-md-3">
            <p class="largepictitle">Estuary</p>
            <p class="largepictext">Landeyjarsandur Estuary, Iceland</p>
@@ -18,7 +18,7 @@
      <div ng-repeat="gallery in galleries">
        <div class="col-sm-4 col-md-4">
          <div class="thumbnail">
-           <a href="{{gallery.link}}"><img ng-src="{{gallery.photo}}" alt="..."></a>
+           <a id="div2" ng-click="scroll()" href="{{gallery.link}}"><img ng-src="{{gallery.photo}}" alt="..."></a>
              <div class="caption">
                <h5>{{gallery.title}}</h5>
              </div>
