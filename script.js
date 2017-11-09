@@ -52,7 +52,8 @@ var app = angular.module("bhApp",['ngRoute'])
     $scope.galleries = response.data;
   });
   $scope.scroll = function () {
-    $window.scrollTo(0, angular.element(document.getElementById('div1')).offsetTop);
-    // $window.scrollTo(0, 0);
+    $('html, body').animate({
+      scrollTop: $("#mainsitebackground").offset().top
+    }, 1000);
   };
 }]);
